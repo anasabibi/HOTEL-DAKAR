@@ -1,0 +1,160 @@
+/* General Styles */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+/* Remove spinner buttons from number inputs */
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: none;   /* Safari and Chrome */
+    appearance: none;           /* Standard */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;   /* Safari and Chrome */
+    appearance: none;           /* Standard */
+    margin: 0;
+}
+
+/* Custom background styles */
+.custom-bg {
+    background-color: #f4511e ;
+    border: 1px solid #f4511e;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-bg:hover {
+    background: linear-gradient(45deg, #f4511e, #FFFFFF);
+    border-color:#f4511e;
+}
+.h-line {
+    width: 50px;
+    height: 5px;
+    background: #f4511e;
+    margin: 10px auto;
+ }
+.custom-alert{
+    position: fixed;
+    right: 25px;
+    top: 80px;
+    z-index: 1111;
+}
+.bg-white {
+    background-color: #f9d5ce !important;  
+}
+/* 
+/* .room-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s cubic-bezier(0.5, 0, 0, 1), transform 1s cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  .room-card.visible {
+    opacity: 3;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  } */
+ 
+  /* .facility__card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s cubic-bezier(0.5, 0, 0, 1), transform 1s cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  .facility__card.visible {
+    opacity: 1;
+    transform: translateY(0); 
+ } */ 
+ 
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: #f9e8ce57 !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #212529;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.room-card .card-body {
+    padding: 20px;
+}
+
+.room-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.room-card h6 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #f4511e;
+}
+
+.features, .facilities, .guests, .rating {
+    margin-bottom: 15px;
+}
+
+.badge {
+    font-size: 0.875rem;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    color: #495057;
+    border-radius: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-outline-dark {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+.btn-outline-dark:hover {
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.custom-bg {
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.custom-bg:hover {
+    background-color: #f4511e;
+}

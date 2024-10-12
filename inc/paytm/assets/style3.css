@@ -1,0 +1,90 @@
+
+/* Custom styles */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.paypal-logo {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00457c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus {
+    border-color: #00457c;
+    box-shadow: 0 0 10px rgba(0, 69, 124, 0.2);
+}
+
+.pay-button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00457c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #003663;
+}
+
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}

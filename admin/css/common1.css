@@ -1,0 +1,84 @@
+/* General Styles */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+/* Remove spinner buttons from number inputs */
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: none;   /* Safari and Chrome */
+    appearance: none;           /* Standard */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;   /* Safari and Chrome */
+    appearance: none;           /* Standard */
+    margin: 0;
+}
+
+/* Custom background styles */
+.custom-bg {
+    background-color: #FD730D;
+    border: 1px solid #FD730D;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-bg:hover {
+    background-color: #FD730D;
+    border-color:#FD730D;
+}
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+.custom-alert{
+    position: fixed;
+    right: 25px;
+    top: 80px;
+}
+
+#dashboard-menu{
+    position:fixed;
+    height:100%;
+    z-index:11;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background:#f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(36,36,36);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu{
+        width:100%;
+        height:auto;
+    }
+    #main-content{
+        margin-top: 60px;
+    }
+}
+.modal-backdrop {
+    position: relative;}
